@@ -19,7 +19,7 @@ setxkbmap -option caps:ctrl_modifier
 setxkbmap -layout us,ru -variant -option grp:shift_toggle
 xrdb -merge ~/.Xresources
 google-chrome &
-st
+st &
 
 lemonade server &
 greenclip daemon &

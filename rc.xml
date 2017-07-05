@@ -357,9 +357,9 @@
     <action name="Execute">
       <startupnotify>
         <enabled>true</enabled>
-        <name>xterm</name>
+        <name>rofi greenclip</name>
       </startupnotify>
-      <command>/home/ildar/launchtool.sh xterm</command>
+      <command>rofi -modi "clipboard:greenclip print" -show clipboard</command>
     </action>
   </keybind>
   <keybind key="S-A-t">
