@@ -371,7 +371,7 @@
       <command>/home/ildar/launchtool.sh /home/ildar/Telegram/Telegram</command>
     </action>
   </keybind>
-  <keybind key="S-A-o">
+  <keybind key="S-A-e">
     <action name="Execute">
       <startupnotify>
         <enabled>true</enabled>
