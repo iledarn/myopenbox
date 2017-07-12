@@ -389,6 +389,12 @@
       <command>/home/ildar/rofi-surfraw-bookmarks.sh</command>
     </action>
   </keybind>
+  <keybind key="S-A-p">
+    <!-- Screenshot of Area or Window -->
+    <action name="Execute">
+      <command>scrot -bs /home/ildar/scratch/screen_%Y-%m-%d_%H-%M-%S.png</command>
+    </action>
+  </keybind>
 </keyboard>
 
 <mouse>
